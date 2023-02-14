@@ -1,0 +1,38 @@
+.about{
+    padding-bottom: 48px;
+}
+.about-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.picture{
+    height: 350px;
+    width: 500px;
+}
+.about-info{
+    font-size: 22px;
+    font-weight: 500;
+    padding: 5px;
+    color: white;
+}
+.info-name{
+    color: rgb(245, 138, 138);
+    font-size: 32px;font-weight: 500;
+}
+@media only screen and (max-width:720px) {
+    .about-top{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .picture{
+        height: 280px;
+    }
+    .about-info{
+        font-size: 20px;
+    }
+    .info-name{
+        font-size: 26px;
+    }
+}
